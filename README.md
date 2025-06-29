@@ -38,6 +38,12 @@ To get started with the Deep Research Using Agent, follow these steps:
 
 ![Multi-agent Diagram](images/visualize-graph.png)
 
+### Triển khai trong ứng dụng API
+1. Dùng AI Agent Coding (cline, cursor)
+2. Add reference 2 file: writer_gui.py và agent.py
+3. Prompt theo cấu trúc sau:
+    "Bạn là 1 chuyên gia code python và ứng dụng langgraph. Tôi đang xây dựng một ứng dụng, cung cấp api để có thể tương tác và cho phép người dùng nghiên cứu sâu (deep-research). Sau đây tôi sẽ cũng cấp cho bạn ngữ cảnh 2 file: agent.py - kiến trúc AI Agent và writer_gui.py - GUI mẫu để tương tác với AI Agent ví dụ.
+   Nhiệm vụ của bạn là chuyển đổi các logic và hàm trong GUI writer_gui.py thành 1 class mà tôi có thể dễ dành kiểm soát và tương tác được thông qua API. Để dễ hiểu thì bạn cần thêm các comment bằng tiếng Việt. Bạn cần tham khảo kiến trúc code hiện tại của tôi và đề xuất một chiến lược thực thi phù hợp"
 
 #### References:
 - [LangGraph Documentation](https://blog.langchain.dev/langgraph/)
